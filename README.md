@@ -46,10 +46,10 @@
 	<div align="center"><b>!!! remember that 0 = first address !!!</b></div>
 	
 	8. To use it for assignment personal address on user registration:
-  1. edit <code>index.php</code> : comment, or remove this line: <pre>echo $xpub_address;</pre>
-		2. I guess, your index file should content anything other: you should rename source <code>index.php</code>, e.g. <code>getbtc.php</code><br>
+  edit <code>index.php</code> : comment, or remove this line: <pre>echo $xpub_address;</pre>
+		I guess, your index file should content anything other: you should rename source <code>index.php</code>, e.g. <code>getbtc.php</code><br>
 			<code>sudo mv index.php getbtc.php</code><br>
-		3. use <code>require_once('getbtc.php');</code> in your registration file and $xpub_address should output a new address every time.
+		add line <code>require_once('getbtc.php');</code> in your registration file and $xpub_address should output a new address every time.
 
 
 <div align="center"><pre>Like my code? Buy me a ☕️: <a href="bitcoin:bc1qqzun677gyh4w856zkztt7jkzv87ca305439cly" target="_blank">bc1qqzun677gyh4w856zkztt7jkzv87ca305439cly</a></pre>
