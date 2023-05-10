@@ -14,7 +14,7 @@
 
 2. CLI python usage
 
-	1. <code>python3 btc_by_xpubindex.py</code>
+	1. <code>python3 btc_by_xpubindex.py</code><br>
 		Please enter your xpub: [YOUR-XPUB]<br>
 		Please enter the index number: [ANY-NUMBER]<br>
 		[outputs address]
